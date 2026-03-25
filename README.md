@@ -1,116 +1,55 @@
-<<<<<<< HEAD
-# CineAi
+# Cine‑ai 🎬
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
+**Cine‑ai** is a cinematic movie discovery web app built with **Angular 19**, **Signals**, **Tailwind CSS**, and the **TMDB (The Movie Database) API**. Explore movies with a sleek UI, browse trending films, add movies to your watchlist, and get personal stats — all in a Netflix‑inspired design.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
-ng serve
-```
+✨ **Responsive & modern UI** — Cinematic look using Tailwind CSS  
+📽 **Trending Movies** — See what’s popular right now  
+🔍 **Explore & Search** — Find movies by title with smooth interactions  
+📌 **Watchlist** — Save movies you want to watch  
+📊 **Personal Dashboard** — Track stats like genre breakdown, ratings, and recently watched  
+🎯 **Movie Details** — Detailed movie pages with cast, budget, similar recommendations, and more
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧠 Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Technology | Purpose |
+|------------|---------|
+| Angular 19 | Framework |
+| Signals | Reactive state |
+| Tailwind CSS | Styling |
+| TMDB API | Movie data |
+| Chart.js | Dashboard charts |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Getting Started
 
-```bash
-ng generate --help
-```
+### 🔧 Prerequisites
 
-## Building
+Make sure you have:
 
-To build the project run:
+- **Node.js** v16+  
+- **npm** v8+  
+- An API key from **TMDB** ,get free at https://www.themoviedb.org
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 📦 Installation
 
 ```bash
-ng e2e
-```
+# 1. Clone the repo
+git clone https://github.com/Saidivakar123/Cine‑ai.git
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# 2. Change directory
+cd Cine‑ai
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-🎬 CineAI — Movie Discovery App
-A cinematic movie discovery app built with Angular 19, Signals, Tailwind CSS, and the TMDB API. Explore trending movies, search by genre, track your watchlist, and view your personal stats dashboard.
-Show Image
-Show Image
-Show Image
-Show Image
-
-✨ Features
-
-🏠 Home — Cinematic hero banner with trending movie backdrop, movie rows (Trending, Now Playing, Top Rated), and mood-based movie picker
-🔍 Explore — Search movies with debounce, filter by genre pills, infinite scroll with load more
-🎥 Movie Detail — Full backdrop hero, cast row, similar movies, budget/revenue stats, add to watchlist
-📋 Watchlist — Track movies you want to watch and ones you've already seen, with completion stats
-📊 Dashboard — Genre breakdown chart, rating distribution, top rated in your collection, recently watched
-
-
-🛠️ Tech Stack
-TechUsageAngular 19Framework (Standalone Components)Angular SignalsState managementTailwind CSS v3Utility-first stylingAngular MaterialUI components (tabs, icons, badges)SCSSComponent-level stylesChart.jsDashboard chartsTMDB APIMovie data
-
-
-
-🚀 Getting Started
-Prerequisites
-
-Node.js 23+
-npm 11+
-Angular CLI 19
-
-Installation
-bash# Clone the repository
-git clone https://github.com/YOUR_USERNAME/cine-ai.git
-
-# Navigate to project
-cd cine-ai
-
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-
-
-Get your free TMDB API key at themoviedb.org
-
-
-🎨 Design Theme
-TokenValueBackground#0a0a0aCard#141414Border#2a2a2aAccent Red#e50914Gold#f5c518
-Netflix-inspired dark cinematic UI throughout.
-
-📸 Screenshots
-
-Coming soon
-
-
-📄 License
-MIT License — feel free to use and modify.
->>>>>>> ffda283ae9ffecea18e9abe519b146ca7e6a00d9
+# 4. Add your TMDB API key
+# Create a .env or use your own configuration
