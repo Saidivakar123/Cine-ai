@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --cinema-dark: #0a0a0a;
+  --cinema-card: #141414;
+  --cinema-border: #2a2a2a;
+  --cinema-red: #e50914;
+  --cinema-gold: #f5c518;
+}
