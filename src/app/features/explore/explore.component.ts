@@ -17,8 +17,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     <div class="min-h-screen bg-[#0a0a0a] px-4 md:px-8 lg:px-16 py-8">
 
       <!-- Page Header -->
-      <div class="mb-8">
-        <h1 class="text-white text-3xl md:text-4xl font-bold mb-2">
+      <div class="mb-5">
+        <h1 class="text-white text-3xl md:text-4xl font-bold mb-2" style="line-height: 8.5rem !important;">
           Explore <span class="text-[#e50914]">Movies</span>
         </h1>
         <p class="text-gray-400 text-sm">Search thousands of movies or browse by genre</p>
