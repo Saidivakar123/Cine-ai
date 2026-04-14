@@ -4,6 +4,11 @@
 
 ---
 
+## 🚀 Live Demo
+
+👉 [View Live App](https://cine-ai123.netlify.app/home)
+
+
 ## 🚀 Features
 
 ✨ **Responsive & modern UI** — Cinematic look using Tailwind CSS  
